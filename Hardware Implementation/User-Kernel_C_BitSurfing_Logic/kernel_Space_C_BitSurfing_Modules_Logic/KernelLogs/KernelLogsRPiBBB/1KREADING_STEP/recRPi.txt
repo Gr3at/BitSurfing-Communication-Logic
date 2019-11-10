@@ -1,0 +1,3 @@
+60096 | 58975 | 60096 | bitsPassedTilMsg: 7
+59395 | 60111 | 59395 | bitsPassedTilMsg: 2
+57904 | 57535 | 57904 | bitsPassedTilMsg: 6

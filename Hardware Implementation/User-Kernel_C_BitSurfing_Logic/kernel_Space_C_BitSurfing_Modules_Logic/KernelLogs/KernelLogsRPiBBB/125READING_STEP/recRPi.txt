@@ -1,0 +1,10 @@
+57407 | 57348 | 0 | bitsPassedTilMsg: 0
+59903 | 59391 | 59903 | bitsPassedTilMsg: 7
+57348 | 57389 | 0 | bitsPassedTilMsg: 0
+58381 | 60269 | 0 | bitsPassedTilMsg: 0
+58580 | 59429 | 0 | bitsPassedTilMsg: 0
+57377 | 57376 | 0 | bitsPassedTilMsg: 0
+59423 | 60607 | 59423 | bitsPassedTilMsg: 4
+57481 | 59685 | 57481 | bitsPassedTilMsg: 8
+60561 | 57497 | 0 | bitsPassedTilMsg: 0
+59392 | 59397 | 59392 | bitsPassedTilMsg: 4

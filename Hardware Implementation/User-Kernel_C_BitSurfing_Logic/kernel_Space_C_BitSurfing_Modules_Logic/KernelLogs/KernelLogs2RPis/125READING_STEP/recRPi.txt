@@ -1,0 +1,15 @@
+60431 | 59455 | 60431 | bitsPassedTilMsg: 3
+59524 | 57642 | 0 | bitsPassedTilMsg: 0
+60713 | 59602 | 0 | bitsPassedTilMsg: 0
+59556 | 58988 | 0 | bitsPassedTilMsg: 0
+57867 | 58048 | 57867 | bitsPassedTilMsg: 8
+59391 | 58055 | 0 | bitsPassedTilMsg: 0
+60428 | 57736 | 0 | bitsPassedTilMsg: 0
+59391 | 60735 | 0 | bitsPassedTilMsg: 0
+57391 | 57345 | 0 | bitsPassedTilMsg: 0
+57928 | 58520 | 0 | bitsPassedTilMsg: 0
+59910 | 58074 | 0 | bitsPassedTilMsg: 0
+59407 | 57383 | 0 | bitsPassedTilMsg: 0
+60507 | 58547 | 0 | bitsPassedTilMsg: 0
+58121 | 60440 | 58121 | bitsPassedTilMsg: 1
+58218 | 60826 | 58218 | bitsPassedTilMsg: 1

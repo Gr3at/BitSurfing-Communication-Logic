@@ -1,0 +1,6 @@
+0 | 0 | 59392 | bitsPassedTilMsg: 29
+57989 | 58907 | 58495 | bitsPassedTilMsg: 6
+58635 | 59471 | 57926 | bitsPassedTilMsg: 29
+58367 | 58501 | 59915 | bitsPassedTilMsg: 8
+58175 | 58447 | 61439 | bitsPassedTilMsg: 9
+59669 | 58384 | 57743 | bitsPassedTilMsg: 5

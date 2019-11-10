@@ -1,0 +1,721 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"size",
+				"size_t"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"0x1",
+				"0x194"
+			],
+			[
+				"d",
+				"double"
+			],
+			[
+				"RE",
+				"Receive"
+			],
+			[
+				"foun",
+				"foundMsg"
+			],
+			[
+				"fou",
+				"foundMsg"
+			],
+			[
+				"rand",
+				"randomIndex"
+			],
+			[
+				"arr",
+				"arrayPtr"
+			],
+			[
+				"siz",
+				"size_t"
+			],
+			[
+				"node",
+				"node_t"
+			],
+			[
+				"ra",
+				"random_number"
+			],
+			[
+				"code",
+				"codebookPtr"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
+				"ve",
+				"vector\tstandard header"
+			],
+			[
+				"str",
+				"string\tstandard header"
+			],
+			[
+				"buf",
+				"buffsize\tparam"
+			],
+			[
+				"new",
+				"newSize"
+			],
+			[
+				"P",
+				"Point"
+			],
+			[
+				"Point",
+				"PointArray"
+			],
+			[
+				"co",
+				"copySize"
+			],
+			[
+				"do",
+				"doubleVal"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"ar",
+				"arraysum"
+			],
+			[
+				"num",
+				"num1"
+			],
+			[
+				"Num",
+				"num2"
+			],
+			[
+				"A",
+				"arrayLen"
+			],
+			[
+				"for",
+				"format\tfunction"
+			],
+			[
+				"a",
+				"a_uni\tstatement"
+			],
+			[
+				"mean",
+				"mean_val"
+			],
+			[
+				"mili",
+				"miligrammaria"
+			],
+			[
+				"mi",
+				"mili"
+			],
+			[
+				"t",
+				"timi"
+			],
+			[
+				"out",
+				"out_act\tstatement"
+			],
+			[
+				"valid",
+				"valid_loss\tstatement"
+			],
+			[
+				"y",
+				"y_pred\tstatement"
+			],
+			[
+				"S",
+				"Smax_index\tstatement"
+			],
+			[
+				"N",
+				"None\tinstance"
+			],
+			[
+				"tm",
+				"tmp_dw_loss\tstatement"
+			],
+			[
+				"tmp",
+				"tmp_file"
+			],
+			[
+				"file_",
+				"file_to_handle"
+			],
+			[
+				"Fi",
+				"FILESNUM"
+			],
+			[
+				"stre",
+				"stream_out"
+			],
+			[
+				"time",
+				"time_diff"
+			],
+			[
+				"mal",
+				"malicius_flag"
+			],
+			[
+				"files",
+				"files_ls"
+			],
+			[
+				"files_",
+				"files_ls"
+			],
+			[
+				"file",
+				"filepath"
+			],
+			[
+				"l_se",
+				"l_ses"
+			],
+			[
+				"firs",
+				"first_flag"
+			],
+			[
+				"u",
+				"uid"
+			],
+			[
+				"us",
+				"users_ptr"
+			],
+			[
+				"uid",
+				"uid_data"
+			],
+			[
+				"li",
+				"line_logs"
+			],
+			[
+				"ma",
+				"malicious_users"
+			],
+			[
+				"fn",
+				"fngpt_ptr2"
+			],
+			[
+				"changes",
+				"changes_made"
+			],
+			[
+				"fng",
+				"fngpt_ptr2"
+			],
+			[
+				"cha",
+				"changes_made"
+			],
+			[
+				"user",
+				"user_idx"
+			],
+			[
+				"get",
+				"get_num_of_users"
+			],
+			[
+				"udi",
+				"uid_t"
+			],
+			[
+				"print",
+				"printf\tprintf …"
+			],
+			[
+				"log",
+				"log_line"
+			],
+			[
+				"un",
+				"unique_fp"
+			],
+			[
+				"dw",
+				"dw_loss_i\tstatement"
+			],
+			[
+				"loss",
+				"loss_i\tstatement"
+			],
+			[
+				"los",
+				"loss_i\tstatement"
+			],
+			[
+				"reg",
+				"reg_type\tparam"
+			],
+			[
+				"r",
+				"rpath"
+			],
+			[
+				"line_",
+				"line_logs"
+			],
+			[
+				"input",
+				"input_file"
+			],
+			[
+				"line",
+				"lines_num"
+			],
+			[
+				"Ex",
+				"EXIT_FAILURE"
+			],
+			[
+				"f",
+				"fingerprint"
+			],
+			[
+				"std",
+				"stdout"
+			],
+			[
+				"int",
+				"intype"
+			],
+			[
+				"or",
+				"origin_fwrite"
+			],
+			[
+				"de",
+				"define"
+			],
+			[
+				"pri",
+				"printf\tprintf …"
+			],
+			[
+				"H",
+				"HMAC"
+			],
+			[
+				"veri",
+				"verify"
+			],
+			[
+				"v",
+				"verify"
+			],
+			[
+				"verif",
+				"verification"
+			],
+			[
+				"HM",
+				"HMAC_SIZE"
+			],
+			[
+				"encr",
+				"encryption"
+			],
+			[
+				"fi",
+				"file_out"
+			],
+			[
+				"op",
+				"op_mode"
+			],
+			[
+				"server",
+				"server_ips"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 154.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: c",
+				"Package Control: Install Package"
+			],
+			[
+				"c pro",
+				"Package Control: Add Repository"
+			],
+			[
+				"Package Control: inst\t",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: isn",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insa",
+				"Package Control: Install Package"
+			],
+			[
+				"matla",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 461.0
+	},
+	"console":
+	{
+		"height": 170.0,
+		"history":
+		[
+			"install cppcheck",
+			"20%3",
+			"20%2",
+			"20%1",
+			"XDG_CONFIG_HOME/pycodestyle",
+			"import numpy as np",
+			"a = np.ones((5, 1))",
+			"clear",
+			"dir",
+			"ls",
+			"gcc -shared -fPIC  inspect_open.c -o inspect_open.so -ldl",
+			"16*8",
+			"javac",
+			"256/8",
+			"128/8",
+			"exit",
+			"a+2",
+			"a=1",
+			"make",
+			"dir",
+			"ls"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/el10/Desktop/chris/bcastReceiveBBB.c",
+		"/home/el10/Desktop/chris/bcastReceiveRPi.c",
+		"/home/el10/Desktop/chris/bcastSend.c",
+		"/home/el10/Desktop/chris/logResults.txt",
+		"/home/el10/Documents/MSc_Classes/Master_Thesis/RasberryBBBImplementation/masterC/bcastSend.c",
+		"/home/el10/Documents/MSc_Classes/Master_Thesis/RasberryBBBImplementation/masterC/bcastReceiveBBB.c",
+		"/home/el10/Documents/MSc_Classes/Master_Thesis/RasberryBBBImplementation/masterC/c100SUCCESSES_LOGS/logResults.txt",
+		"/home/el10/Documents/MSc_Classes/Master_Thesis/RasberryBBBImplementation/masterC/bcastReceiveRPi.c",
+		"/home/el10/Documents/MSc_Classes/Master_Thesis/RasberryBBBImplementation/masterC/c100SUCCESSES_LOGS/nosleep/recPi.txt",
+		"/home/el10/Documents/MSc_Classes/Master_Thesis/RasberryBBBImplementation/masterC/c100SUCCESSES_LOGS/nosleep/sendBBB.txt",
+		"/home/el10/Documents/MSc_Classes/Master_Thesis/RasberryBBBImplementation/masterC/c100SUCCESSES_LOGS/nosleep/sendPi.txt",
+		"/home/el10/Documents/MSc_Classes/Master_Thesis/RasberryBBBImplementation/masterC/c100SUCCESSES_LOGS/nosleep/recBBB.txt",
+		"/home/el10/Documents/MSc_Classes/Master_Thesis/RasberryBBBImplementation/logs/40bitBufferPythonResultsPlus30bitInfo.txt",
+		"/home/el10/Documents/MSc_Classes/Master_Thesis/RasberryBBBImplementation/masterC/gpioRPi.c",
+		"/home/el10/Documents/MSc_Classes/Master_Thesis/RasberryBBBImplementation/masterC/gpioBBB.c",
+		"/home/el10/Documents/MSc_Classes/Master_Thesis/RasberryBBBImplementation/masterC/c100SUCCESSES_LOGS/recras.txt",
+		"/home/el10/Documents/MSc_Classes/Master_Thesis/RasberryBBBImplementation/masterC/c100SUCCESSES_LOGS/sendBBB.txt",
+		"/home/el10/Documents/MSc_Classes/Master_Thesis/RasberryBBBImplementation/masterC/c100SUCCESSES_LOGS/sendras.txt",
+		"/home/el10/Documents/MSc_Classes/Master_Thesis/RasberryBBBImplementation/masterC/c100SUCCESSES_LOGS/recBBB.txt",
+		"/home/el10/Documents/MSc_Classes/Master_Thesis/RasberryBBBImplementation/masterC/rec.txt",
+		"/home/el10/Documents/MSc_Classes/Master_Thesis/RasberryBBBImplementation/udpGetJustMsgRPi.py",
+		"/home/el10/Documents/MSc_Classes/Master_Thesis/RasberryBBBImplementation/masterC/bcastReceive.c",
+		"/home/el10/.cache/.fr-AMxwDQ/frozen_lake.py",
+		"/home/el10/.cache/.fr-gTA3rl/vi_and_pi.py",
+		"/home/el10/.cache/.fr-QonQke/lake_envs.py",
+		"/home/el10/Documents/MSc_Classes/Master_Thesis/RasberryPi/rasberry",
+		"/home/el10/Documents/MSc_Classes/Master_Thesis/RasberryBBBImplementation/udpGetJustMsgBBB.py",
+		"/home/el10/Documents/MSc_Classes/Master_Thesis/RasberryBBBImplementation/masterC/recLog.txt",
+		"/home/el10/Documents/MSc_Classes/Master_Thesis/RasberryBBBImplementation/masterC/sendLog.txt",
+		"/home/el10/Documents/MSc_Classes/Master_Thesis/BeagleBoneBlack/BBB",
+		"/home/el10/Documents/MSc_Classes/Master_Thesis/RasberryBBBImplementation/README.md",
+		"/home/el10/Documents/MSc_Classes/Master_Thesis/BeagleBoneBlack/BeagleBone_Black_Rev_C_power_buttons.jpg",
+		"/home/el10/Documents/MSc_Classes/Master_Thesis/RasberryBBBImplementation/masterC/codebooktoVector.c",
+		"/home/el10/Documents/MSc_Classes/Master_Thesis/RasberryBBBImplementation/masterC/binSearch.c",
+		"/home/el10/Documents/MSc_Classes/2nd_Semester/457/Assignments/Assignment_2/assign_2_1050/monitor.c",
+		"/home/el10/Documents/MSc_Classes/2nd_Semester/457/Assignments/Assignment_2/assign_2_1050/logger.c",
+		"/home/el10/Dropbox/MSc_Classes/MasterThesis/RasberryBBBImplementation/masterC/bcastReceive.c",
+		"/home/el10/Documents/MSc_Classes/Master_Thesis/RasberryBBBImplementation/masterC/send",
+		"/home/el10/Documents/MSc_Classes/Master_Thesis/RasberryBBBImplementation/masterC/codebook1.txt",
+		"/home/el10/Documents/MSc_Classes/Master_Thesis/RasberryBBBImplementation/masterC/randomNums.c",
+		"/home/el10/Documents/MSc_Classes/Master_Thesis/RasberryBBBImplementation/masterC/loadandStoreCodebooktoListofShorts.c",
+		"/home/el10/Documents/MSc_Classes/Master_Thesis/RasberryBBBImplementation/logs/readMe",
+		"/run/user/1000/gvfs/mtp:host=%5Busb%3A002%2C005%5D/Phone/Επαφές.vcf",
+		"/home/el10/Documents/MSc_Classes/Master_Thesis/RasberryBBBImplementation/logs/40bitBufferPythonResults.txt",
+		"/home/el10/Documents/QLearning.txt",
+		"/home/el10/Documents/LearningPaths.txt",
+		"/home/el10/Documents/PLC Engineer.txt",
+		"/home/el10/Documents/MSc_Classes/Master_Thesis/RasberryBBBImplementation/masterC/garbage.cpp",
+		"/home/el10/Documents/MSc_Classes/Master_Thesis/RasberryBBBImplementation/codebook1.txt",
+		"/home/el10/Documents/MSc_Classes/Master_Thesis/Arduino/arduino",
+		"/etc/ssh/ssh_config",
+		"/home/el10/Documents/MSc_Classes/Master_Thesis/RasberryBBBImplementation/logs/incomingRPi.txt",
+		"/home/el10/Documents/MSc_Classes/Master_Thesis/RasberryBBBImplementation/logs/sendingDebian.txt",
+		"/home/el10/Documents/MSc_Classes/Master_Thesis/RasberryBBBImplementation/logs/incomingDebian.txt",
+		"/home/el10/Documents/MSc_Classes/Master_Thesis/RasberryBBBImplementation/logs/sendingRPi.txt",
+		"/home/el10/Documents/MSc_Classes/2nd_Semester/457/Assignments/Assignment_1/assign_1_1050/assign_1.c",
+		"/home/el10/Desktop/masterC/garbage.c",
+		"/home/el10/Desktop/masterC/bcastReceive.c",
+		"/home/el10/Desktop/masterC/bcastSend.c",
+		"/home/el10/Documents/MSc_Classes/Master_Thesis/RasberryBBBImplementation/cppClients/udpSend.cpp",
+		"/home/el10/Documents/Aitiseis Ergasias/ΙΕΚ_2018/dikaiologitika.txt",
+		"/home/el10/Documents/Aitiseis Ergasias/FekGiaYpologistes",
+		"/home/el10/Documents/Aitiseis Ergasias/cover_letter.txt",
+		"/home/el10/Downloads/other/logB.txt",
+		"/home/el10/Downloads/logbuffer.txt",
+		"/home/el10/Downloads/other/logbufferpi.txt",
+		"/home/el10/Documents/MSc_Classes/1st Semester/CS-577 Machine Learning/project/data/original_data/ARIMA_model_digitalocean.py",
+		"/home/el10/Documents/MSc_Classes/1st Semester/CS-577 Machine Learning/project/data/original_data/ml_capstone.py",
+		"/home/el10/Documents/MSc_Classes/1st Semester/CS-577 Machine Learning/project/data/usefull shell commands",
+		"/home/el10/Desktop/a.c",
+		"/home/el10/Desktop/log10.txt",
+		"/home/el10/Documents/MSc_Classes/Master_Thesis/RasberryBBBImplementation/garbage.py",
+		"/tmp/mozilla_el100/codebook1.txt",
+		"/home/el10/Documents/current/hello.cpp",
+		"/home/el10/Documents/current/test2.cpp",
+		"/home/el10/Desktop/geometry.cpp",
+		"/home/el10/Desktop/cppmit.cpp",
+		"/home/el10/Desktop/udpSend.py",
+		"/home/el10/Desktop/garbage.py",
+		"/home/el10/Desktop/udpGet.py",
+		"/home/el10/Desktop/geometry.h",
+		"/home/el10/Downloads/tickerData/F_MD.txt",
+		"/home/el10/Downloads/tickerData/CASH.txt",
+		"/home/el10/QuantiacsPythonToolbox_v227/sampleSystems/simpleTS.py",
+		"/home/el10/QuantiacsPythonToolbox_v227/sampleSystems/meanReversion.py",
+		"/home/el10/.cache/.fr-an2ltL/example_model.py",
+		"/home/el10/Desktop/#udpSend.py#",
+		"/home/el10/Desktop/CPP/hello.cpp",
+		"/home/el10/Desktop/sendEth.py",
+		"/home/el10/Desktop/getEth.py",
+		"/home/el10/.config/sublime-text-3/Packages/User/CPP_Buildings.sublime-build",
+		"/home/el10/.cache/.fr-uIckOL/unix-source/chapter00/makefile",
+		"/home/el10/Downloads/Estimation.m",
+		"/media/el10/boot/config.txt",
+		"/media/el10/boot/cmdline.txt",
+		"/etc/ssh/sshd_config",
+		"/home/el10/Documents/MSc_Classes/Master_Thesis/RasberryPi/IMG_to_VDI",
+		"/home/el10/Documents/MSc_Classes/Master_Thesis/Rasbery_Pi/BeagleBoneBlack/BBB",
+		"/home/el10/Documents/MSc_Classes/Master_Thesis/Rasbery_Pi/rasberry",
+		"/home/el10/Downloads/test.c",
+		"/media/el10/BEAGLEBONE/README.md",
+		"/home/el10/Documents/MSc_Classes/Master_Thesis/apories",
+		"/home/el10/Downloads/IMG_to_VDI",
+		"/home/el10/Downloads/idea-IC-173.4548.28/build.txt",
+		"/home/el10/Documents/Aitiseis Ergasias/ICCS_NTUA_Expirience",
+		"/home/el10/Downloads/TEI/courses",
+		"/home/el10/Documents/Aitiseis Ergasias/ΑΜΑ-ΙΚΑ-ΕΤΑΜ",
+		"/home/el10/Documents/MSc_Classes/Master_Thesis/Arduino/blabla",
+		"/home/el10/Downloads/arduino-1.8.5/libraries/WiFi/src/WiFi.cpp",
+		"/home/el10/Downloads/arduino-1.8.5/libraries/WiFi/src/WiFi.h",
+		"/home/el10/Arduino/libraries/readme.txt",
+		"/home/el10/.cache/.fr-sihd4D/execve-sandbox.c",
+		"/home/el10/.cache/.fr-CknmOk/flag.txt",
+		"/home/el10/.cache/.fr-nKKNDz/challenge.py",
+		"/home/el10/.cache/.fr-2uFNWC/not_des.py",
+		"/home/el10/.cache/.fr-Of71Z0/challenge.py",
+		"/home/el10/.cache/.fr-NXTPwk/better_zip.py",
+		"/home/el10/.cache/.fr-9Cndya/better_zip.py",
+		"/home/el10/.cache/.fr-P0750o/exm_opencl_hello_world_x64_linux/hello_world/device/hello_world.cl",
+		"/home/el10/.cache/.fr-WLl8K6/exm_opencl_hello_world_x64_linux/hello_world/Makefile",
+		"/home/el10/Documents/MSc_Classes/2nd_Semester/473/seires_askiseon/3h_seira/HW3_data3.txt",
+		"/home/el10/.cache/.fr-HNrIYD/ex1b.m",
+		"/home/el10/.cache/.fr-0vsWpL/CS587-Assignment3/Assignment+3b.py",
+		"/home/el10/.cache/.fr-dMXiHJ/CS587-Assignment3/Assignment+3b.py",
+		"/home/el10/Documents/MSc_Classes/2nd_Semester/587/Assignment_3/email",
+		"/home/el10/.cache/.fr-c5Pzhu/CS587-Assignment3/Assignment+3a.py",
+		"/etc/fstab",
+		"/home/el10/Documents/fix_unity_hide_menu"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/CPP_Buildings.sublime-build",
+	"project": "recBBB.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,8 @@
+58905 | 59591 | 59600 | bitsPassedTilMsg: 21
+58376 | 59499 | 57705 | bitsPassedTilMsg: 20
+59663 | 60171 | 59682 | bitsPassedTilMsg: 7
+60248 | 57641 | 60415 | bitsPassedTilMsg: 55
+57675 | 57707 | 58561 | bitsPassedTilMsg: 37
+59570 | 58475 | 58111 | bitsPassedTilMsg: 43
+59692 | 57357 | 59684 | bitsPassedTilMsg: 31
+59664 | 60497 | 60097 | bitsPassedTilMsg: 9

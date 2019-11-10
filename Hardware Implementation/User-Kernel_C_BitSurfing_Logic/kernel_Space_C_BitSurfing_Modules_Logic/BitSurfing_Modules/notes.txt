@@ -1,0 +1,29 @@
+finished BBBRPi.ods
+finished BBBRPiV2.ods
+finished BBBRPiV3.ods
+finished BBBRPiV4.ods
+
+now on BBBRPiV5.ods : finished 50,100,55 now do none, then 500,166,66,55,200,83,125,250,333 and done
+---------------------
+cat /sys/devices/system/cpu/cpufreq/policy*/scaling_cur_freq
+cat /sys/devices/system/cpu/cpufreq/policy*/scaling_available_frequencies
+echo userspace > /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
+echo 1008000 > /sys/devices/system/cpu/cpu*/cpufreq/scaling_setspeed
+echo 1008000 > /sys/devices/system/cpu/cpu*/cpufreq/scaling_max_freq
+cat /sys/devices/system/cpu/cpu*/cpufreq/scaling_setspeed
+---------------------
+modprobe configs && cat /proc/config.gz | gunzip > running.config
+cat running.config | grep "HZ"
+100Hz for RPi
+250Hz for BPi
+250Hz for BBB
+---------------------
+systemctl enable systemd-timesyncd
+systemctl start systemd-timesyncd
+---------------------
+cvlc -v '6 HOURS - Relaxing.mp3' --sout "#transcode{vcodec=none,acodec=mp3,ab=512,channels=1,samplerate=48000,scodec=none}:udp{dst=192.168.2.255:37020} :no-sout-all :sout-keep"
+---------------------
+finished BPiRPi.ods
+finished BPiRPiV2.ods
+
+now on BPiRPiOpt{ ,v2,v3}.ods : finished 100,50,25,20,15,10,9,8,7,6,5,4,3,2,1 now ?

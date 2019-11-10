@@ -1,0 +1,47 @@
+installed on SD card using etcher
+
+################### Arch first boot ###################
+pacman-key --init
+pacman-key --populate archlinuxarm
+systemctl enable dhcpcd
+sudo modprobe g_ether
+echo g_ether > /etc/modules-load.d/g_ether.conf
+
+pacman -Syy # sychronizes all databases
+pacman -Su # update packages, you can skip the first step and just use -Syu as long as new repos have not been added.
+pacman -S <package name> # install package
+
+
+
+############### GPIO #################
+---------- BCM:228-->Board:5 ---------
+
+echo 228 > /sys/class/gpio/export
+cat /sys/class/gpio/gpio228/value
+echo out > /sys/class/gpio/gpio228/direction
+echo 0 > /sys/class/gpio/gpio228/value //set the pin low
+echo 1 > /sys/class/gpio/gpio228/value //set the pin high
+echo 228 > /sys/class/gpio/unexport
+
+
+- 1: 3V3	    - 2: 5V
+- 3: GPIO 229	- 4: 5V
+- 5: GPIO 228	- 6: GND
+- 7: GPIO 362	- 8: GPIO 32
+- 9: GND	    -10: GPIO 33
+- 11: GPIO 68	- 12: GPIO 35
+- 13: GPIO 71	- 14: GND
+- 15: GPIO 81	- 16: GPIO 34
+- 17: 3V3	    - 18: GPIO 360
+- 19: GPIO 64	- 20: GND
+- 21: GPIO 65	- 22: GPIO 361
+- 23: GPIO 66	- 24: GPIO 67
+- 25: GND	    - 26: GPIO 234
+- 27: ID_SD	    -28: ID_SC
+- 29: GPIO 82	- 30: GND
+- 31: GPIO 202	- 32: GPIO 205
+- 33: GPIO 203	- 34: GND
+- 35: GPIO 204	- 36: GPIO 133
+- 37: GPIO 132	- 38: GPIO 146
+- 39: GND	    - 40: GPIO 147
+

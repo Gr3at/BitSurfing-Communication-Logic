@@ -1,0 +1,4 @@
+0 | 0 | 57375 | bitsPassedTilMsg: 28
+57393 | 57727 | 57365 | bitsPassedTilMsg: 36
+59650 | 58202 | 59429 | bitsPassedTilMsg: 22
+57868 | 60165 | 58368 | bitsPassedTilMsg: 7

@@ -1,0 +1,126 @@
+Harware used
+BBB : BeagleBone Black Rev. A5C 
+RasPi : Raspberry Pi Model B, Revision 2.0
+
+########### C Implementation ###############
+1) /*  32 bit buffer size */
+bcastSend : sleep(0.01) ~ about 30 minutes to complete
+RasPi	-->	BBB		71/100 (successes/total attempts)
+BBB		-->	RasPi	55/99
+---------------------------
+2) bcastSend : without sleep() ~ about 15 minutes to complete
+RasPi	-->	BBB		40/83
+BBB		-->	RasPi	49/100
+---------------------------
+3)bcastSend : without sleep() ~ about 20 minutes to complete
+/*  32 bit buffer size - array instead of log files - remove all printf() */
+RasPi	-->	BBB		66/73
+BBB		-->	RasPi	71/100
+---------------------------
+4)bcastSend : sleep(0.001) ~ about 60 minutes to complete
+/*  32 bit buffer size - array instead of log files - printf() every 30mins */
+RasPi	-->	BBB		81/100
+BBB		-->	RasPi	78/95
+---------------------------
+5)bcastSend : sleep(0.01) ~ about 90 minutes to complete
+/*  32 bit buffer size - array instead of log files - printf() every 30mins */
+RasPi	-->	BBB		75/99
+BBB		-->	RasPi	80/100
+---------------------------
+6)bcastSend : sleep(0.0001) ~ about 65 minutes to complete
+/*  32 bit buffer size - array instead of log files - printf() every 30mins - improved searchValidMsgInBuffer() */
+RasPi	-->	BBB		75/100
+BBB		-->	RasPi	73/92
+---------------------------
+7)bcastSend : sleep(0.0001) ~ about 55 minutes to complete
+/*  32 bit buffer size - array instead of log files - printf() every 30mins - moved improved searchValidMsgInBuffer() after buffer update - created validMessagesCache */
+RasPi	-->	BBB		81/96 (out of 15 missmatches 14 are the previous message received)
+BBB		-->	RasPi	78/100 (out of 22 missmatches only 1 is the previous message received)
+---------------------------
+8)bcastSend : sleep(0.001) ~ about 55 minutes to complete
+/*  32 bit buffer size - array instead of log files - printf() every 30mins - moved improved searchValidMsgInBuffer() after buffer update - created validMessagesCache */
+RasPi	-->	BBB		80/90 (out of 10 missmatches 6 are the previous message received)
+BBB		-->	RasPi	76/100 (out of 24 missmatches none is the previous message received)
+---------------------------
+9)bcastSend : sleep(0.001) ~ about 55 minutes to complete
+/* **Feed Bit-per-Bit**  32 bit buffer size - array instead of log files - printf() every 30mins - moved improved searchValidMsgInBuffer() after buffer update - created validMessagesCache */
+RasPi	-->	BBB		97/100 (out of 3 missmatches all are the previous message received)
+BBB		-->	RasPi	11/87 (76 missmatches!!!)
+---------------------------
+10)bcastSend : sleep(0.01) ~ about 55 minutes to complete
+/*  32 bit buffer size - array instead of log files - moved improved searchValidMsgInBuffer() after buffer update - created validMessagesCache */
+RasPi	-->	BBB		86/100 (out of 14 missmatches all are the previous message received)
+BBB		-->	RasPi	62/93 (out of 31 missmatches none is the previous message received)
+---------------------------
+11)bcastSend : sleep(0.1) ~ about 45 minutes to complete
+/*  32 bit buffer size - array instead of log files - moved improved searchValidMsgInBuffer() after buffer update - created validMessagesCache */
+RasPi	-->	BBB		83/100
+BBB		-->	RasPi	67/100
+---------------------------
+12)bcastSend : sleep(0.1) ~ about 45 minutes to complete
+/* **Feed Bit-per-Bit**  32 bit buffer size - array instead of log files - moved improved searchValidMsgInBuffer() after buffer update - created validMessagesCache */
+RasPi	-->	BBB		76/82 (out of 6 missmatches 5 are the previous message received)
+BBB		-->	RasPi	12/100
+---------------------------
+13)bcastSend : sleep(1) ~ about 5 hours and still nothing, turning to highest speed
+/* 32 bit buffer size - array instead of log files - moved improved searchValidMsgInBuffer() after buffer update - created validMessagesCache */
+RasPi	-->	BBB		82/100
+BBB		-->	RasPi	48/68
+---------------------------
+14)bcastSend : sleep(0) ~ about 40 minutes to complete
+/* 32 bit buffer size - array instead of log files - moved improved searchValidMsgInBuffer() after buffer update - created validMessagesCache */
+RasPi	-->	BBB		67/87
+BBB		-->	RasPi	48/68
+---------------------------
+
+---------------------------
+Ras perByte - BBB perBit -(A)+(S)+(V)
+---------------------------
+15) -- sleep(0)
+RasPi	-->	BBB		?/10
+BBB		-->	RasPi	?/9
+---------------------------
+16) -- sleep(0.01)
+RasPi	-->	BBB		45/50
+BBB		-->	RasPi	21/31
+---------------------------
+
+BCM2835 seems to be faster - more accurate than WiringPi
+
+TO TRY
+a) try increasing buffer to 40bits
+b) use class10 micro SD raspberry
+c) patch kernel to run as kernel and not user
+
+######### Native C - RPi per Byte - BBB per Bit #########
+/* sleep(0) - microSD class 10 on RPi */
+RasPi	-->	BBB		20/20
+BBB		-->	RasPi	7/7
+#########################################################
+
+######## Native C per Bit ##############
+/* sleep(0) - microSD class 10 on RPi */
+											/* test 1 */			/* test 2  - sleep(0.001) */	/* test 3  - sleep(0) - wait_x_bits */			/* test 4  - sleep(0) - wait_x_bits */
+Ras --> BBB 12/13								18/18					9/9							50/50 (soonest next msg in 5 bits,... 			43/43 (soonest in 7 bits)
+																									next soonest in 8 and 9 and then 15)
+BBB --> Ras 2/20 (17/18 misses...			3/20 (17/17 next msg)	5/20 (15/15 next msg)			6/26 (20/20 next msg) (wait 1-7bits and... 		10/50 (40/40 next msg) (wait...
+			 are next msg)																			if not next message it's 15bits after,... 		7 bits worst case, if not then it's...
+			 																						so set wait_x_bits ~ 10 will be ok)				14bits after, set wait_x_bits ~ 7-10 bits)
+
+########################################
+######## BCM2835 per Byte ##############
+/* sleep(0) - microSD class 10 on RPi */
+		/* test 1 */	/* test 2 */	/* test 3 */
+Ras --> BBB 3/10		16/16			19/20 (1 missmatch is actually the previous msg)
+BBB --> Ras 18/18		20/20			4/4 (very few messages)
+########################################
+
+######## Python 3 implementation #############
+/*  40 bit buffer size   */
+Ras --> BBB 9/15
+BBB --> Ras 0/14
+---------------------------
+30bits Buffer -- 10415 sec ~ 2.89h
+Ras --> BBB 31/71
+BBB --> Ras 1/100
+###########################

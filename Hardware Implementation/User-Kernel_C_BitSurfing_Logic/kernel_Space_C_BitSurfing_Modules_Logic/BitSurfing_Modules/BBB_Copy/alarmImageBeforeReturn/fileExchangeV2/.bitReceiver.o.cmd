@@ -1,0 +1,1 @@
+cmd_/home/alarm/fileExchangeV2/bitReceiver.o := ld -EL    -r -o /home/alarm/fileExchangeV2/bitReceiver.o /home/alarm/fileExchangeV2/rec.o /home/alarm/fileExchangeV2/kfile.o /home/alarm/fileExchangeV2/gpioStuff.o 

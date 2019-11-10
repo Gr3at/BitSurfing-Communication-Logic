@@ -1,0 +1,10 @@
+59078 | 57762 | 51744 | bitsPassedTilMsg: 3230976544
+57611 | 57999 | 57611 | bitsPassedTilMsg: 4
+60122 | 57439 | 60122 | bitsPassedTilMsg: 6
+60809 | 60815 | 49300 | bitsPassedTilMsg: 3648952460
+59936 | 60519 | 59936 | bitsPassedTilMsg: 4
+57413 | 58576 | 55678 | bitsPassedTilMsg: 3221676432
+59527 | 59951 | 59527 | bitsPassedTilMsg: 3
+59471 | 57855 | 59471 | bitsPassedTilMsg: 4
+60802 | 58467 | 38952 | bitsPassedTilMsg: 1
+58476 | 59411 | 58476 | bitsPassedTilMsg: 2

@@ -1,0 +1,11 @@
+60201 | 58882 | 0 | bitsPassedTilMsg: 0
+57930 | 57937 | 0 | bitsPassedTilMsg: 0
+58519 | 58177 | 0 | bitsPassedTilMsg: 0
+60799 | 60851 | 0 | bitsPassedTilMsg: 0
+58419 | 57955 | 0 | bitsPassedTilMsg: 0
+58369 | 58423 | 0 | bitsPassedTilMsg: 0
+59808 | 60077 | 59808 | bitsPassedTilMsg: 3
+60692 | 59716 | 0 | bitsPassedTilMsg: 0
+60204 | 57640 | 0 | bitsPassedTilMsg: 0
+57936 | 57350 | 0 | bitsPassedTilMsg: 0
+58239 | 60084 | 58239 | bitsPassedTilMsg: 3

@@ -1,0 +1,10 @@
+58144 | 60825 | 0 | bitsPassedTilMsg: 0
+57951 | 57351 | 57951 | bitsPassedTilMsg: 3
+58886 | 59456 | 0 | bitsPassedTilMsg: 0
+59011 | 59912 | 0 | bitsPassedTilMsg: 0
+57601 | 59416 | 57601 | bitsPassedTilMsg: 8
+59731 | 60192 | 59731 | bitsPassedTilMsg: 6
+58880 | 59903 | 0 | bitsPassedTilMsg: 0
+60466 | 58133 | 0 | bitsPassedTilMsg: 0
+57471 | 57955 | 57471 | bitsPassedTilMsg: 6
+60852 | 58019 | 60852 | bitsPassedTilMsg: 7

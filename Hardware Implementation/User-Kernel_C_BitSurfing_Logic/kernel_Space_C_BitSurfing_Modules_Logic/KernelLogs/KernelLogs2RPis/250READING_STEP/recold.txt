@@ -1,0 +1,16 @@
+0 | 0 | 128 | bitsPassedTilMsg: 2147483923
+58541 | 57567 | 0 | bitsPassedTilMsg: 4294967295
+58547 | 57984 | 28864 | bitsPassedTilMsg: 3615783052
+59551 | 59903 | 56002 | bitsPassedTilMsg: 3615783116
+60242 | 60095 | 21772 | bitsPassedTilMsg: 3615783000
+59937 | 60033 | 49158 | bitsPassedTilMsg: 3227835264
+58416 | 58454 | 30700 | bitsPassedTilMsg: 3222035340
+58405 | 57471 | 55172 | bitsPassedTilMsg: 1569046528
+59691 | 57695 | 30680 | bitsPassedTilMsg: 32
+58774 | 57349 | 55172 | bitsPassedTilMsg: 1
+59099 | 57489 | 21772 | bitsPassedTilMsg: 0
+58421 | 59135 | 49158 | bitsPassedTilMsg: 17573
+59701 | 60256 | 14044 | bitsPassedTilMsg: 3636135424
+58136 | 60696 | 49208 | bitsPassedTilMsg: 1569046528
+58052 | 59903 | 58052 | bitsPassedTilMsg: 5
+58508 | 58470 | 0 | bitsPassedTilMsg: 3663539108

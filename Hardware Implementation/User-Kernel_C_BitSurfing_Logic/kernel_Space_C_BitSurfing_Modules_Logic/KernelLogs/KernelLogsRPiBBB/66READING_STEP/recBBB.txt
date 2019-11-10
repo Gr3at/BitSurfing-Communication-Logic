@@ -1,0 +1,17 @@
+60521 | 58113 | 57367 | bitsPassedTilMsg: 44
+60546 | 58175 | 57602 | bitsPassedTilMsg: 11
+57384 | 58402 | 61439 | bitsPassedTilMsg: 3
+57782 | 60098 | 57765 | bitsPassedTilMsg: 28
+60460 | 57537 | 57515 | bitsPassedTilMsg: 12
+58440 | 59736 | 57606 | bitsPassedTilMsg: 20
+60498 | 58551 | 59468 | bitsPassedTilMsg: 30
+59395 | 58801 | 59443 | bitsPassedTilMsg: 18
+58752 | 60085 | 57690 | bitsPassedTilMsg: 12
+58927 | 59529 | 58367 | bitsPassedTilMsg: 1
+57352 | 57375 | 57355 | bitsPassedTilMsg: 8
+60726 | 58411 | 59954 | bitsPassedTilMsg: 14
+60599 | 60680 | 57674 | bitsPassedTilMsg: 20
+60802 | 60169 | 60851 | bitsPassedTilMsg: 28
+57676 | 57357 | 58980 | bitsPassedTilMsg: 28
+57939 | 60746 | 58418 | bitsPassedTilMsg: 12
+59907 | 58664 | 59391 | bitsPassedTilMsg: 2
